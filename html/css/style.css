@@ -1,0 +1,510 @@
+
+body{
+    background-color:#46F2CF ;
+    width: 100% ;
+    height: auto ; 
+    font-family: Exo, sans-serif;
+}
+
+p{
+
+   color: white ;
+   font-size: 1.4em ;
+   line-height:28px;
+}
+
+.container{
+    margin-left:2%;
+}
+
+.mainImg{
+    width: 420px ;
+    height: 290px ;
+    image-orientation: center ;
+    position: relative;
+    
+    top:0%; 
+    border-style:solid;
+    border-width: 1px ;
+    border-color: #000 ;
+    border-radius: 20px ;
+    box-shadow: 0 0 16px 0 #000 ;
+    
+    
+}
+
+
+
+.please{
+    margin-top:7px;
+    margin-left:5px ;
+    display:block ;
+    color:white ;
+    font-size: 40px; 
+}
+
+.ask{
+    position:relative ;
+    margin-left: 15px;
+    margin-top: 8px ;
+    width:350px ;
+    height:50px ; 
+    padding-top: 7px ;
+    word-break:break-all;
+    
+    border-style: dashed;
+    border-width:2px;
+    border-color: rgba(3,188,255,0.63);
+    border-radius:20px;
+    
+    font-size:20px ;
+    line-height:20px ;
+    text-align:center ;
+}
+
+.bt{
+    margin-top:10px ;
+    padding-top: 8px ;
+    padding-left:10px;
+    padding-right: 10px ;
+    padding-bottom: 8px ;
+    position: relative ;
+    color: black ;
+    text-align:center;
+    font-size:15px;
+    position:relative;
+    left:150px; 
+    
+    border: 1px none #000 ;
+    border-radius:20px ;
+    background-color: rgba(3,188,255,0.63);
+}
+
+.footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:265px ;
+    width:100%;
+
+}
+.bottomImg{
+    width: 450px ;
+    height: 255px ;
+    position: absolute ;
+    bottom:0 ;
+}
+
+.player{
+    margin-left:8%;
+}
+
+
+/* PC , 테블릿 가로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) { 
+    
+    body{
+        background-color:#46F2CF ;
+        width: auto ;
+        height: auto ; 
+        font-family: Exo, sans-serif;
+    }
+
+    p{
+       color: white ;
+       font-size: 1.4em ;
+       line-height:28px;
+    }
+
+    .container{
+        margin-left:10%;
+    }
+
+    .mainImg{
+        width: 80% ;
+        height: 80% ;
+        image-orientation: center ;
+        position: relative;
+
+        top:0%; 
+        border-style:solid;
+        border-width: 1px ;
+        border-color: #000 ;
+        border-radius: 20px ;
+        box-shadow: 0 0 16px 0 #000 ;
+
+
+    }
+
+
+
+    .please{
+        margin-top:7px;
+        margin-left:2% ;
+        display:block ;
+        color:white ;
+        font-size: 40px; 
+    }
+
+    .ask{
+        position:relative ;
+        margin-left: 4%;
+        margin-top: 8px ;
+        width:350px ;
+        height:50px ; 
+        padding-top: 7px ;
+        word-break:break-all;
+
+        border-style: dashed;
+        border-width:2px;
+        border-color: rgba(3,188,255,0.63);
+        border-radius:20px;
+
+        font-size:20px ;
+        line-height:20px ;
+        text-align:center ;
+    }
+
+    .bt{
+        margin-top:20px ;
+        padding-top: 8px ;
+        padding-left:10px;
+        padding-right: 10px ;
+        padding-bottom: 8px ;
+        position: relative ;
+        color: black ;
+        text-align:center;
+        font-size:15px;
+        position:relative;
+        left:23%; 
+
+        border: 1px none #000 ;
+        border-radius:20px ;
+        background-color: rgba(3,188,255,0.63);
+    }
+
+    .footer{
+        position:absolute;
+        left:0;
+        bottom:0;
+        height:265px ;
+        width:100%;
+
+    }
+    .bottomImg{
+        width: 100% ;
+        height: auto ;
+        position: absolute ;
+        bottom:0 ;
+
+    } 
+
+}
+
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px) { 
+    
+    
+body{
+    background-color:#46F2CF ;
+    width: auto ;
+    height: auto ; 
+    font-family: Exo, sans-serif;
+}
+
+p{
+   color: white ;
+   font-size: 1.4em ;
+   line-height:28px;
+}
+
+.container{
+    margin-left:10%;
+}
+
+.mainImg{
+    width: 420px ;
+    height: 290px ;
+    image-orientation: center ;
+    position: relative;
+    
+    top:0%; 
+    border-style:solid;
+    border-width: 1px ;
+    border-color: #000 ;
+    border-radius: 20px ;
+    box-shadow: 0 0 16px 0 #000 ;
+    
+    
+}
+
+
+
+.please{
+    margin-top:7px;
+    margin-left:2% ;
+    display:block ;
+    color:white ;
+    font-size: 40px; 
+}
+
+.ask{
+    position:relative ;
+    margin-left: 4%;
+    margin-top: 8px ;
+    width:350px ;
+    height:50px ; 
+    padding-top: 7px ;
+    word-break:break-all;
+    
+    border-style: dashed;
+    border-width:2px;
+    border-color: rgba(3,188,255,0.63);
+    border-radius:20px;
+    
+    font-size:20px ;
+    line-height:20px ;
+    text-align:center ;
+}
+
+.bt{
+    margin-top:20px ;
+    padding-top: 8px ;
+    padding-left:10px;
+    padding-right: 10px ;
+    padding-bottom: 8px ;
+    position: relative ;
+    color: black ;
+    text-align:center;
+    font-size:15px;
+    position:relative;
+    left:23%; 
+    
+    border: 1px none #000 ;
+    border-radius:20px ;
+    background-color: rgba(3,188,255,0.63);
+}
+
+.footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:265px ;
+    width:100%;
+
+}
+.bottomImg{
+    width: 100% ;
+    height: 400px ;
+    position: absolute ;
+    bottom:0 ;
+    
+} 
+
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
+@media (min-width:480px) and (max-width:767px) {
+    
+    body{
+        background-color:#46F2CF ;
+        width: auto ;
+        height: auto ; 
+        font-family: Exo, sans-serif;
+    }
+
+    p{
+       color: white ;
+       font-size: 1.4em ;
+       line-height:28px;
+    }
+
+    .container{
+        margin-left:10%;
+    }
+
+    .mainImg{
+        width: 70% ;
+        height: 70% ;
+        image-orientation: center ;
+        position: relative;
+
+        top:0%; 
+        border-style:solid;
+        border-width: 1px ;
+        border-color: #000 ;
+        border-radius: 20px ;
+        box-shadow: 0 0 16px 0 #000 ;
+
+
+    }
+
+        .explain{
+            font-size:15px;
+        }
+
+    .please{
+        margin-top:7px;
+        margin-left:2% ;
+        display:block ;
+        color:white ;
+        font-size: 30px; 
+    }
+
+    .ask{
+        position:relative ;
+        margin-left: 4%;
+        margin-top: -15px ;
+        width:320px ;
+        height:30px ; 
+        padding-top: 7px ;
+        word-break:break-all;
+
+        border-style: dashed;
+        border-width:2px;
+        border-color: rgba(3,188,255,0.63);
+        border-radius:20px;
+
+        font-size:20px ;
+        line-height:20px ;
+        text-align:center ;
+    }
+
+    .bt{
+        margin-top:12px ;
+        padding-top: 8px ;
+        padding-left:10px;
+        padding-right: 10px ;
+        padding-bottom: 8px ;
+        position: relative ;
+        color: black ;
+        text-align:center;
+        font-size:15px;
+        position:relative;
+        left:33%; 
+
+        border: 1px none #000 ;
+        border-radius:20px ;
+        background-color: rgba(3,188,255,0.63);
+    }
+
+    .footer{
+        position:absolute;
+        left:0;
+        bottom:0;
+        height:265px ;
+        width:100%;
+
+    }
+    .bottomImg{
+        width: 100% ;
+        height: auto ;
+        position: absolute ;
+        bottom:0 ;
+
+    } 
+
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+@media all and (max-width:479px) { 
+    body{
+    background-color:#46F2CF ;
+    width: auto ;
+    height: auto ; 
+    font-family: Exo, sans-serif;
+}
+
+p{
+   color: white ;
+   font-size: 1.4em ;
+   line-height:28px;
+}
+
+.container{
+    margin-left:20%;
+}
+
+.mainImg{
+    width: 60% ;
+    height: 60% ;
+    image-orientation: center ;
+    position: relative;
+    left:10%;
+    top:0%; 
+    border-style:solid;
+    border-width: 1px ;
+    border-color: #000 ;
+    border-radius: 20px ;
+    box-shadow: 0 0 16px 0 #000 ;
+    
+    
+}
+
+
+
+.please{
+    margin-top:7px;
+    display:block ;
+    color:white ;
+    font-size: 24px; 
+}
+
+    .explain{
+        font-size:13px;    
+        margin-left:-3%;
+    }
+.ask{
+    position:relative ;
+    margin-top:-10px;
+    left:-8%;
+    width:200px ;
+    height:30px ; 
+    padding-top: 2px ;
+    word-break:break-all;
+    
+    border-style: dashed;
+    border-width:2px;
+    border-color: rgba(3,188,255,0.63);
+    border-radius:20px;
+    
+    font-size:20px ;
+    line-height:16px ;
+    text-align:center ;
+}
+
+.bt{
+    margin-top:10px ;
+    padding-top: 4px ;
+    padding-left:10px;
+    padding-right: 10px ;
+    padding-bottom: 4px ;
+    position: relative ;
+    color: black ;
+    text-align:center;
+    font-size:15px;
+    position:relative;
+    left:23%; 
+    
+    border: 1px none #000 ;
+    border-radius:20px ;
+    background-color: rgba(3,188,255,0.63);
+}
+
+.footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:265px ;
+    width:100%;
+
+}
+.bottomImg{
+    width: 100% ;
+    height: 150px ;
+    position: absolute ;
+    bottom:0 ;
+    
+} 
+
+}
